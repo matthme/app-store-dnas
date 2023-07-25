@@ -148,10 +148,10 @@ clean-files-all-force:	clean-remove-chaff
 	git clean -fdx
 
 PRE_HDK_VERSION = "0.3.0-beta-dev.7"
-NEW_HDK_VERSION = "0.2.1-beta-rc.0"
+NEW_HDK_VERSION = "0.2.1"
 
 PRE_HDI_VERSION = "0.4.0-beta-dev.5"
-NEW_HDI_VERSION = "0.3.1-beta-rc.0"
+NEW_HDI_VERSION = "0.3.1"
 
 PRE_CRUD_VERSION = "0.7.0"
 NEW_CRUD_VERSION = "0.8.0"
