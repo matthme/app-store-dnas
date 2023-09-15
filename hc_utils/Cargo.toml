@@ -10,9 +10,9 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 essence_payloads = "0.1"
-hc_crud_caps = "0.9.0"
-hdi = "=0.3.1"
-hdk = "=0.2.1"
+hc_crud_caps = { git = "https://github.com/mrruby/rust-hc-crud-caps", rev = "2c5494834d8ba55bb3f5d1f30352e35cee947513"}
+hdi = "=0.3.2"
+hdk = "=0.2.2"
 serde = "1"
 serde_yaml = "0.8.17"
 thiserror = "1"
