@@ -10,12 +10,11 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 appstore = {path = "../appstore"}
-hc_crud_caps = { git = "https://github.com/mrruby/rust-hc-crud-caps", rev = "2c5494834d8ba55bb3f5d1f30352e35cee947513"}
 hc_utils = {path = "../../hc_utils"}
 hdk = "=0.2.2"
 hex = "0"
 mere_memory_types = { git = "https://github.com/mrruby/hc-zome-mere-memory" }
-hc_portal_types = "0.8.0"
+hc_portal_types = { git = "https://github.com/matthme/portal-dna", branch = "holochain-0.2.2" }
 rmp-serde = "1.1.1"
 rmpv = { version = "1.0.0", features = ["with-serde"] }
 serde = "1"
